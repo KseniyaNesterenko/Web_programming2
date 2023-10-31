@@ -1,0 +1,97 @@
+/* Стили для элемента <body> */
+body {
+    background-image: url('smth.png'); /* Замените 'путь_к_картинке.jpg' на реальный путь к вашей картинке */
+    background-size: cover; /* Растягивает картинку на весь экран */
+    background-repeat: no-repeat; /* Запрещает повторение картинки */
+    background-attachment: fixed; /* Зафиксирует фоновую картинку при прокрутке страницы */
+    text-align: center; /* Выравнивание по центру для всего содержимого <body> */
+<input type="text" placeholder="Текстовое поле">
+<button>Кнопка</button>
+<p>Обычный текст без рамки.</p>
+}
+
+.axis-line {
+    background-color: black;
+    z-index: 30;
+}
+
+/*.axis {
+    position: relative;
+    z-index: 100;
+}*/
+
+/* Выравнивание заголовков по центру */
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+
+
+/* Стиль для текстовых полей (input) */
+input, input[type="checkbox"] {
+    border: 4px solid pink; /* Задаем розовую рамку толщиной 2px */
+    border-radius: 5px; /* Добавляем закругленные углы */
+    padding: 5px; /* Добавляем небольшую внутреннюю отступку */
+    font-size: 16px; /* Задаем размер шрифта */
+}
+
+/* Стиль для переменных флажков (checkbox) */
+input[type="checkbox"]  {
+    border: 2px solid pink; /* Задаем розовую рамку толщиной 2px */
+    border-radius: 50%; /* Делаем флажок круглым */
+    width: 20px; /* Задаем ширину */
+    height: 20px; /* Задаем высоту */
+    margin-right: 5px; /* Добавляем небольшой отступ между флажком и текстом */
+}
+
+/* Стиль для текста рядом с флажком */
+label {
+    font-size: 16px; /* Задаем размер шрифта */
+}
+
+/* При желании можно также изменить цвет фона для кнопок и текстовых полей */
+input[type="checkbox"], input[type="text"], input[type="submit"] {
+    background-color: #fff; /* Белый фон */
+}
+
+input[type="submit"] {
+    font-style: italic;
+}
+
+
+/* Стили для элемента <h1> */
+h1 {
+    margin: 0 auto; /* Установка отступов слева и справа на 'auto' выравнивает заголовок по центру */
+    margin-top: 2cm;
+    font-size: 24px; /* Размер шрифта заголовка */
+    font-weight: bold; /* Полужирное начертание шрифта */
+    color: #333; /* Цвет текста заголовка */
+    text-transform: uppercase; /* Преобразование текста в верхний регистр */
+}
+
+h2 {
+    font-size: 18px; /* Установите размер шрифта по вашему выбору */
+    font-style: italic;
+    font-weight: normal; /* Уберите жирное начертание */
+}
+
+.container {
+    margin: 0 auto;
+    border-radius: 5px; /* Добавляем закругленные углы */
+    background-color: rgba(255, 192, 203, 0.49); /* Цвет фона (голубой) */
+    /*border: 2px solid rgba(241, 139, 205, 0.63); !* Цвет границы (чёрный) *!*/
+    border-width: 1px; /* Измените значение на желаемую ширину */
+    width: 500px; /* Уменьшите ширину по вашему желанию, например, до 200 пикселей */
+    /* height: 240px;*/
+    padding: 20px; /* Внутренний отступ вокруг элементов в контейнере */
+}
+
+.gif-embed {
+    float: left; /* Размещаем гифку слева от контейнера */
+    margin-right: 20px; /* Регулируем расстояние между гифкой и контейнером */
+    width: 1000px; /* Задайте желаемую ширину */
+    height: 100px;
+    top: 0;
+    left: 0;
+}
+
+
